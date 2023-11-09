@@ -1,0 +1,5 @@
+.list li {
+  padding: 16px;
+  line-height: 1.5;
+  border-bottom: 1px solid #dddddd;
+}
