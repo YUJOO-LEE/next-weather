@@ -21,6 +21,12 @@ li{
   list-style: none;
 }
 
+.root {
+  width: 840px;
+  margin: 0 auto;
+}
+
 .header {
   padding: 16px;
+  text-align: center;
 }
