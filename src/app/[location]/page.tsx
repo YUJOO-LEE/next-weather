@@ -2,6 +2,15 @@ import { HomeButton } from '@/app/[location]/components/HomeButton';
 import { getForecast } from '@/app/utils/getForecast';
 import styles from './style.module.css';
 
+export const generateMetadata = async (props: Props) => {
+  const { params } = props;
+
+  return {
+    title: `${params.location} 날씨`,
+    description: `${params.location} 날씨를 알려드립니다`,
+  }
+};
+
 type Props = {
   params: {
     location: string;
