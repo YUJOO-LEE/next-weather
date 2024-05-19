@@ -4,7 +4,6 @@ import styles from './style.module.css';
 
 export default async function Home() {
   const weather = await getCurrentWeather({ location: 'seoul' });
-  console.log(weather.current);
 
   return (
     <div>
